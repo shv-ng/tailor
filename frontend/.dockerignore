@@ -1,0 +1,36 @@
+node_modules
+.svelte-kit
+build
+.git
+# Dependencies
+node_modules
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# Version Control
+.git
+.gitignore
+
+# Build and Output
+dist/
+build/
+.next/
+out/
+
+# Logs and Debug
+*.log
+npm-debug.log*
+
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Documentation and Non-essential
+*.md
+docs/
+coverage/   
